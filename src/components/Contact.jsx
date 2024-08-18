@@ -3,6 +3,20 @@ import { motion } from "framer-motion"
 
 
 const Contact = () => {
+
+  // eslint-disable-next-line react/prop-types
+  const ContactLink = ({ email }) => {
+    const handleClick = (e) => {
+      e.preventDefault();
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`;
+      window.open(gmailUrl, '_blank');
+    };
+  
+    return (
+      <a href="#" onClick={handleClick} className="border-b">{email}</a>
+    );
+  };
+
   return (
     <div className="border-b border-neutral-900 pb-20">
         <motion.h2 
@@ -24,7 +38,7 @@ const Contact = () => {
               transition={{ duration: 1 }}
               className="my-4"
             >{CONTACT.phoneNo}</motion.p>
-            <a href="#" className="border-b">{CONTACT.email}</a>
+            < ContactLink email={CONTACT.email} />
         </div>
     </div>
   )

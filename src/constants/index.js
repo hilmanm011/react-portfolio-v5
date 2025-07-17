@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     year: "2024 - Present",
     role: "Full Stack Developer",
     company: "PT Egogo Hub Indonesia",
-    description: `As a Backend Developer at PT Egogo Hub Indonesia, I designed, developed, and maintained high-performance, responsive, and secure server-side web applications. I created RESTful APIs with Node.js and Express.js, implemented real-time features using Socket.io, and managed MySQL databases with Sequelize ORM. I collaborated with front-end developers, ensured data protection through robust authentication and authorization, and resolved server-side issues to maintain smooth application operations.`,
+    description: `As a Full Stack Developer at PT Egogo Hub Indonesia, I build and maintain scalable web applications across both front-end and back-end. I develop responsive user interfaces using modern JavaScript frameworks and implement robust server-side logic with Node.js and Express.js. I integrate real-time features using Socket.io, manage data with MySQL and MongoDB, and utilize Meteor.js and Next.js for building reactive and dynamic platforms. I collaborate closely with cross-functional teams to deliver secure, high-performance solutions while ensuring seamless user experiences and system reliability.`,
     technologies: ["Node.js", "Express.js", "mySQL", "mongoDB", "Socket.io", "Meteor.js", "Next.js"],
   },
   {
